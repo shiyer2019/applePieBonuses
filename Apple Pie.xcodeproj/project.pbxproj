@@ -12,6 +12,7 @@
 		3F3A62AA200D7C0300DD1E9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A62A8200D7C0300DD1E9A /* Main.storyboard */; };
 		3F3A62AC200D7C0300DD1E9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A62AB200D7C0300DD1E9A /* Assets.xcassets */; };
 		3F3A62AF200D7C0300DD1E9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3A62AD200D7C0300DD1E9A /* LaunchScreen.storyboard */; };
+		3F3A62B7200E447900DD1E9A /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3A62B6200E447900DD1E9A /* Game.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		3F3A62AB200D7C0300DD1E9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F3A62AE200D7C0300DD1E9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F3A62B0200D7C0300DD1E9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F3A62B6200E447900DD1E9A /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				3F3A62A4200D7C0300DD1E9A /* AppDelegate.swift */,
 				3F3A62A6200D7C0300DD1E9A /* ViewController.swift */,
 				3F3A62A8200D7C0300DD1E9A /* Main.storyboard */,
+				3F3A62B6200E447900DD1E9A /* Game.swift */,
 				3F3A62AB200D7C0300DD1E9A /* Assets.xcassets */,
 				3F3A62AD200D7C0300DD1E9A /* LaunchScreen.storyboard */,
 				3F3A62B0200D7C0300DD1E9A /* Info.plist */,
@@ -137,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F3A62A7200D7C0300DD1E9A /* ViewController.swift in Sources */,
+				3F3A62B7200E447900DD1E9A /* Game.swift in Sources */,
 				3F3A62A5200D7C0300DD1E9A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,7 +284,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "shayIyer.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -294,7 +298,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "shayIyer.Apple-Pie";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
